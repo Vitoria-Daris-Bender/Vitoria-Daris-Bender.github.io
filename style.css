@@ -27,12 +27,26 @@ header {
     text-decoration: none;
     margin-left: 1.3em;
     font-family: system-ui;
+    justify-content: space-around;
+
   }
 
-  .background-section {
-    background-image: ('studio.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: inline-block;
-}    
+ .carrossel {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carrosselDentro {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carrossel-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.carrossel-item img {
+  width: 100%;
+}
