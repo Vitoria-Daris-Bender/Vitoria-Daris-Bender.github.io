@@ -1,3 +1,4 @@
+/*index.html*/
 header {
     background-color: rgb(126, 43, 43);
     height: 70px;
@@ -27,3 +28,11 @@ header {
     margin-left: 19px;
     font-family: system-ui;
   }
+  
+  .background-section {
+    background-image: ('cimol.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+}    
