@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(126, 43, 43);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0.6%;
+    margin-left: 3%;
+  }
+  
+  nav {
+    display: flow-root;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 19px;
+    font-family: system-ui;
+  }
