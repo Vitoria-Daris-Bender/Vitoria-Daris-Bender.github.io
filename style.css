@@ -1,7 +1,7 @@
 /*index.html*/
 header {
     background-color: rgb(126, 43, 43);
-    height: 70px;
+    height: 11vh;
     display: flex;
     align-items: center;
     position: fixed;
@@ -25,12 +25,12 @@ header {
   a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-left: 19px;
+    margin-left: 1.3em;
     font-family: system-ui;
   }
-  
+
   .background-section {
-    background-image: ('cimol.jpg');
+    background-image: ('studio.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
