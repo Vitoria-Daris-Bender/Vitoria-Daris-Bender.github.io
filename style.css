@@ -31,6 +31,9 @@ header {
 
   }
 
+
+  /*vitz.html*/
+
  .carrossel {
   width: 100%;
   position: relative;
@@ -45,8 +48,6 @@ header {
 .carrossel-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
+  height: 30VH
 }
 
-.carrossel-item img {
-  width: 100%;
-}
