@@ -1,4 +1,11 @@
 /*index.html*/
+
+* { 
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
 header {
     background-color: rgb(132, 59, 59);
     height: 11vh;
@@ -33,6 +40,53 @@ header {
 
   /*vitz.html*/
 
+  .box {
+    padding: 0%;
+    box-sizing: border-box;
+    background: white;
+    overflow: hidden;
+    margin: 5%;
+    align-content: center;
+  }
+  
+  .img1 {
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    
+  }
+  
+  .img1:hover {
+    transform: scale(1.1);
+  }
+  
+  .img2 {
+    transition: transform 0.3s ease;
+    max-width: 100%;
+  }
+  
+  .img2:hover {
+    transform: scale(1.1);
+  }
+  
+  .img3 {
+    transition: transform 0.3s ease;
+    max-width: 100%;
+  }
+  
+  .img3:hover {
+    transform: scale(1.1);
+  }
+  
+  .tatuadora_crop {
+    width: 200px;
+    border-radius: 300px;
+    margin-left: 10%;
+    transition: transform 0.3s ease;
+  }
+  
+  .tatuadora_crop:hover {
+    transform: scale(1.1);
+  }
 
 .background-section {
   background-color: #7e1414;
@@ -40,8 +94,6 @@ header {
   display: inline-block;
   height: 50vh;
 }    
-
-
 
 .text-overlay {
   color:rgb(255, 255, 255);
@@ -107,4 +159,8 @@ h1{
   margin-top: 14vh;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+
 }
