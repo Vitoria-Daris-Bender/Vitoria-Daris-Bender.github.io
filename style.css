@@ -36,22 +36,13 @@ header {
 
  .carrossel {
   margin-top: 11vh;
-  width: 100%;
-  position: relative;
-}
-
-.carrosselDentro {
+  flex-wrap: wrap;
   display: flex;
-  overflow: hidden;
 }
 
 .carrossel-item {
-  max-width: 100%;
-  transition: transform 0.3s ease-in-out;
-}
-
-.carrossel-item img {
-  max-width: 100%;
+  width: 33vw;
+  height: 33vh;
 }
 
 .background-section {
