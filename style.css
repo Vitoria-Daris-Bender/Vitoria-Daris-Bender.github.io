@@ -31,20 +31,18 @@ header {
 
   }
 
- .carrossel {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
 
-.carrosselDentro {
+  /*vitz.html*/
+
+ .carrossel {
+  margin-top: 11vh;
+  flex-wrap: wrap;
   display: flex;
-  transition: transform 0.3s ease-in-out;
 }
 
 .carrossel-item {
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
+  width: 33vw;
+  height: 33vh;
 }
 
 .carrossel-item img {
@@ -73,3 +71,32 @@ h4{
 .zaplalas{
   float: left;
 }
+.background-section {
+  background-color: #7e1414;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: inline-block;
+}    
+
+.overlay {
+  margin-top: 15vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22%;
+  height: 20%;
+  background-color:#3887b4;
+}
+
+.text-overlay {
+  color:rgb(255, 255, 255);
+  margin-inline-start: 2vw;
+  margin-inline-end: 1vw;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block; 
+  
+}    
+
