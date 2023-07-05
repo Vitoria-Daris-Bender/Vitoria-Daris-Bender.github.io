@@ -33,24 +33,6 @@ header {
 
   /*vitz.html*/
 
-.img1{
-  width: 39.4vw;
-  height: 50vh;
-}
-.img2{
-  width: 39.4vw;
-  height: 50vh;
-}
-
-.img3{
-  width: 39.4vw;
-  height: 50vh;
-}
-
-.img4{
-  width: 39.4vw;
-  height: 50vh;
-}
 
 .background-section {
   background-color: #7e1414;
@@ -69,6 +51,60 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: block; 
-  
 }    
 
+p{
+  line-height: 30px;
+}
+
+.icones{
+  display: inline-block;
+  margin-left: 7vh;
+  align-items: center;
+}
+
+.zaplalas{
+  margin-bottom: 9vh;
+}
+
+.lalas{
+  display: inline-block;
+  margin: 0%;
+}
+
+.mia{
+  display: inline-block;
+  margin: 0%;
+}
+
+.vitz{
+  display: inline-block;
+  margin: 0%;
+}
+
+.lalasnome{
+  color: black;
+  text-align: center;
+  font-size: 21px;
+}
+
+.mianome{
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  margin-left: 15vh;
+}
+
+.vitznome{
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  margin-left: 15vh;
+}
+
+h1{
+  color: black;
+  margin-top: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
