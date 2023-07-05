@@ -35,14 +35,14 @@ header {
   /*vitz.html*/
 
  .carrossel {
+  margin-top: 11vh;
   width: 100%;
   position: relative;
-  overflow: hidden;
 }
 
 .carrosselDentro {
   display: flex;
-  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .carrossel-item {
@@ -70,12 +70,9 @@ header {
   width: 22%;
   height: 20%;
   background-color:#3887b4;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .text-overlay {
-  padding: 10px;
   color:rgb(255, 255, 255);
   margin-inline-start: 2vw;
   margin-inline-end: 1vw;
@@ -83,8 +80,6 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: block; 
-  
-  text-align:right;
   
 }    
 
