@@ -281,3 +281,90 @@ font-family: 'Grenze', serif;
 font-family: 'Poppins', sans-serif;
 font-size: 20px;
 }
+
+header {
+    background-color: #FFB2DC;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0.6%;
+    margin-left: 3%;
+  }
+  
+  nav {
+    display: flow-root;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 19px;
+    font-family: system-ui;
+  }
+
+.box {
+  padding: 0%;
+  box-sizing: border-box;
+  background: white;
+  overflow: hidden;
+  margin: 5%;
+}
+
+.tattoo_1 {
+  transition: transform 0.3s ease;
+  
+}
+
+.tattoo_1:hover {
+  transform: scale(1.1);
+}
+
+.tattoo_2 {
+  transition: transform 0.3s ease;
+}
+
+.tattoo_2:hover {
+  transform: scale(1.1);
+}
+
+.tattoo_3 {
+  transition: transform 0.3s ease;
+}
+
+.tattoo_3:hover {
+  transform: scale(1.1);
+}
+
+.tatuadora_crop {
+  width: 230px;
+  border-radius: 300px;
+  margin-left: 10%;
+  transition: transform 0.3s ease;
+}
+
+.tatuadora_crop:hover {
+  transform: scale(1.1);
+}
+
+.nome {
+  font-family: 'Grenze', serif;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 78%;
+  font-size: 20px;
+}
+
+.especial {
+  font-family: 'Grenze', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
