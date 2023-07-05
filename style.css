@@ -1,13 +1,12 @@
-/*index.html*/
 header {
-    background-color: rgb(132, 59, 59);
-    height: 11vh;
+    background-color: #FFB2DC;
+    height: 70px;
     display: flex;
     align-items: center;
+    position: fixed;
     top:0;
     left: 0;
     width: 100%;
-    position: fixed;
   }
   
   .logo {
@@ -25,177 +24,64 @@ header {
   a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-left: 1.3em;
+    margin-left: 19px;
     font-family: system-ui;
-    justify-content: space-around;
-
   }
 
-
-  /*vitz.html*/
-
-
-.background-section {
-  background-color: #7e1414;
-  position: relative;
-  display: inline-block;
-  height: 50vh;
-}    
-
-
-
-.text-overlay {
-  color:rgb(255, 255, 255);
-  margin-inline-start: 2vw;
-  margin-inline-end: 1vw;
-  word-wrap: break-word;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  display: block; 
+.box {
+  padding: 0%;
+  box-sizing: border-box;
+  background: white;
+  overflow: hidden;
+  margin: 5%;
 }
 
-/* artistas.index */
-
-p{
-  line-height: 30px;
+.tattoo_1 {
+  transition: transform 0.3s ease;
+  
 }
 
-.icones{
-  display: inline-block;
-  margin-left: 10vh;
-  align-items: center;
-}
-
-.lalas{
-  display: inline-block;
-  margin: 0%;
-}
-
-.mia{
-  display: inline-block;
-  margin: 0%;
-}
-
-.vitz{
-  display: inline-block;
-  margin: 0%;
-}
-
-.lalasnome{
-  color: black;
-  text-align: center;
-  font-size: 21px;
-}
-
-.mianome{
-  color: black;
-  text-align: center;
-  font-size: 21px;
-  margin-left: 15vh;
-}
-
-.vitznome{
-  color: black;
-  text-align: center;
-  font-size: 21px;
-  margin-left: 15vh;
-}
-
-h1{
-  color: black;
-  margin-top: 14vh;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-/* lalas.index */
-
-.zaplalas{
-  margin-bottom: 9vh;
-}
-
-.lalasfoto1{
-  display: inline-block;
-  margin-left: 7vh;
-}
-
-.lalasfoto1:hover{
+.tattoo_1:hover {
   transform: scale(1.1);
 }
 
-.lalasfoto2{
-  display: inline-block;
-  margin-left: 7vh;
+.tattoo_2 {
+  transition: transform 0.3s ease;
 }
 
-.lalasfoto2:hover{
+.tattoo_2:hover {
   transform: scale(1.1);
 }
 
-.lalasfoto3{
-  display: inline-block;
-  margin-left: 7vh;
+.tattoo_3 {
+  transition: transform 0.3s ease;
 }
 
-.lalasfoto3:hover{
+.tattoo_3:hover {
   transform: scale(1.1);
 }
 
-.lalasfoto4{
-  display: inline-block;
-  margin-left: 7vh;
+.tatuadora_crop {
+  width: 230px;
+  border-radius: 300px;
+  margin-left: 10%;
+  transition: transform 0.3s ease;
 }
 
-.lalasfoto4:hover{
+.tatuadora_crop:hover {
   transform: scale(1.1);
 }
 
-.lalasfotos{
-  align-content: center;
+.nome {
+  font-family: 'Grenze', serif;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 78%;
+  font-size: 20px;
 }
 
-.conteudolalas{
-  align-items: center;
-}
+.especial {
+  font-family: 'Grenze', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 
-.textolalas{
-  width: 620px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  display: inline-block;
-  margin: 0%;
-}
-
-h5{
-  margin-top: 0%;
-  margin-bottom: 7%;
-}
-
-h4{
-  margin-bottom: 0%;
-}
-
-/* index.html */
-
-.bemvindo{
-  font-family: Arial, Helvetica, sans-serif;
-  vertical-align: top;
-  display: inline-block;
-  width: 100vh;
-  text-align: justify;
-  margin-top: 10vh;
-}
-
-h3{
-  text-align: end;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.fotosprincipal{
-  display: inline-block;
-  margin-top: 11vh;
-}
-
-iframe{
-  display: inline-block;
 }
