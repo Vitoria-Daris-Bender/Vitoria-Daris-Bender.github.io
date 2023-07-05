@@ -51,7 +51,9 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: block; 
-}    
+}
+
+/* artistas.index */
 
 p{
   line-height: 30px;
@@ -59,12 +61,8 @@ p{
 
 .icones{
   display: inline-block;
-  margin-left: 7vh;
+  margin-left: 10vh;
   align-items: center;
-}
-
-.zaplalas{
-  margin-bottom: 9vh;
 }
 
 .lalas{
@@ -107,4 +105,71 @@ h1{
   margin-top: 14vh;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+/* lalas.index */
+
+.zaplalas{
+  margin-bottom: 9vh;
+}
+
+.lalasfoto1{
+  display: inline-block;
+  margin-left: 7vh;
+}
+
+.lalasfoto1:hover{
+  transform: scale(1.1);
+}
+
+.lalasfoto2{
+  display: inline-block;
+  margin-left: 7vh;
+}
+
+.lalasfoto2:hover{
+  transform: scale(1.1);
+}
+
+.lalasfoto3{
+  display: inline-block;
+  margin-left: 7vh;
+}
+
+.lalasfoto3:hover{
+  transform: scale(1.1);
+}
+
+.lalasfoto4{
+  display: inline-block;
+  margin-left: 7vh;
+}
+
+.lalasfoto4:hover{
+  transform: scale(1.1);
+}
+
+.lalasfotos{
+  align-content: center;
+}
+
+.conteudolalas{
+  align-items: center;
+}
+
+.textolalas{
+  width: 620px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0%;
+}
+
+h5{
+  margin-top: 0%;
+  margin-bottom: 7%;
+}
+
+h4{
+  margin-bottom: 0%;
 }
