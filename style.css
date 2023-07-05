@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: rgb(132, 59, 59);
+    background-color: #7e1414;
     height: 11vh;
     display: flex;
     align-items: center;
@@ -47,6 +47,7 @@ header {
     overflow: hidden;
     margin: 5%;
     align-content: center;
+    justify-content: space-around;
   }
   
   .img1 {
@@ -93,17 +94,34 @@ header {
   position: relative;
   display: inline-block;
   height: 50vh;
+  width: 100%;
 }    
 
 .text-overlay {
   color:rgb(255, 255, 255);
-  margin-inline-start: 2vw;
-  margin-inline-end: 1vw;
+  margin-inline-start: 20vw;
+  margin-inline-end: 20vw;
   word-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: block; 
+  line-height: 2em;
 }    
+
+.nome {
+  color:rgb(255, 255, 255);
+  width: 200px;
+  border-radius: 300px;
+  margin-left: 10%;
+  transition: transform 0.3s ease;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block; 
+ text-align: center;
+ padding-bottom: 1.2em;
+}    
+
 
 p{
   line-height: 30px;
