@@ -46,8 +46,45 @@ header {
 }
 
 .carrossel-item {
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
-  height: 30VH
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
 }
+
+.carrossel-item img {
+  max-width: 100%;
+}
+
+.background-section {
+  background-color: #7e1414;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: inline-block;
+}    
+
+.overlay {
+  margin-top: 15vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22%;
+  height: 20%;
+  background-color:#3887b4;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-overlay {
+  padding: 10px;
+  color:rgb(255, 255, 255);
+  margin-inline-start: 2vw;
+  margin-inline-end: 1vw;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block; 
+  
+  text-align:right;
+  
+}    
 
