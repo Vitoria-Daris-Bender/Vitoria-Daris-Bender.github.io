@@ -1,8 +1,8 @@
 // Seletor do carrossel
-const carousel = document.querySelector('.carousel');
+const carrossel = document.querySelector('.carrossel');
 
 // Seletor dos itens do carrossel
-const carouselItems = document.querySelectorAll('.carousel-item');
+const carrosselItems = document.querySelectorAll('.carrossel-item');
 
 // Contador para controlar o item atual
 let currentItem = 0;
@@ -10,14 +10,14 @@ let currentItem = 0;
 // Função para exibir o item atual
 function showCurrentItem() {
   // Esconde todos os itens
-  carouselItems.forEach(item => {
+  carrosselItems.forEach(item => {
     item.style.transform = 'translateX(-100%)';
     item.style.opacity = '0';
   });
 
   // Exibe o item atual
-  carouselItems[currentItem].style.transform = 'translateX(0)';
-  carouselItems[currentItem].style.opacity = '1';
+  carrosselItems[currentItem].style.transform = 'translateX(0)';
+  carrosselItems[currentItem].style.opacity = '1';
 }
 
 // Função para avançar para o próximo item
@@ -33,7 +33,7 @@ function nextItem() {
 function prevItem() {
   currentItem--;
   if (currentItem < 0) {
-    currentItem = carouselItems.length - 1;
+    currentItem = carrosselItems.length - 1;
   }
   showCurrentItem();
 }
