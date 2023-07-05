@@ -109,3 +109,45 @@ p{
 .zaplalas{
   margin-bottom: 9vh;
 }
+
+.lalas{
+  display: inline-block;
+  margin: 0%;
+}
+
+.mia{
+  display: inline-block;
+  margin: 0%;
+}
+
+.vitz{
+  display: inline-block;
+  margin: 0%;
+}
+
+.lalasnome{
+  color: black;
+  text-align: center;
+  font-size: 21px;
+}
+
+.mianome{
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  margin-left: 15vh;
+}
+
+.vitznome{
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  margin-left: 15vh;
+}
+
+h1{
+  color: black;
+  margin-top: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
