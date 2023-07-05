@@ -1,10 +1,9 @@
 /*index.html*/
 header {
-    background-color: #CF3434;
+    background-color: rgb(132, 59, 59);
     height: 11vh;
     display: flex;
     align-items: center;
-    position: fixed;
     top:0;
     left: 0;
     width: 100%;
@@ -34,57 +33,15 @@ header {
 
   /*vitz.html*/
 
- .carrossel {
-  margin-top: 11vh;
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.carrossel-item {
-  width: 33vw;
-  height: 33vh;
-}
-
-.carrossel-item img {
-  width: 100%;
-}
-
-.textolalas{
-  width: 620px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
-  /* position: absolute; */
-  /* float: right; */
-  display: inline-block;
-  margin: 0%;
-}
-
-h5{
-  margin-top: 0%;
-  margin-bottom: 4%;
-}
-
-h4{
-  margin-bottom: 0%;
-}
 
 .background-section {
   background-color: #7e1414;
-  background-size: cover;
-  background-position: center;
   position: relative;
   display: inline-block;
+  height: 50vh;
 }    
 
-.overlay {
-  margin-top: 15vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 22%;
-  height: 20%;
-  background-color:#3887b4;
-}
+
 
 .text-overlay {
   color:rgb(255, 255, 255);
