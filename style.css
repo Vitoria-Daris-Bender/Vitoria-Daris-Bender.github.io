@@ -71,14 +71,26 @@ p{
   margin: 0%;
 }
 
+.lalas:hover{
+  transform: scale(1.1);
+}
+
 .mia{
   display: inline-block;
   margin: 0%;
 }
 
+.mia:hover{
+  transform: scale(1.1);
+}
+
 .vitz{
   display: inline-block;
   margin: 0%;
+}
+
+.vitz:hover{
+  transform: scale(1.1);
 }
 
 .lalasnome{
@@ -181,7 +193,7 @@ h4{
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: top;
   display: inline-block;
-  width: 100vh;
+  width: 150vh;
   text-align: justify;
   margin-top: 10vh;
 }
@@ -197,5 +209,75 @@ h3{
 }
 
 iframe{
-  display: inline-block;
+  overflow: hidden;
+}
+
+/*mia.html*/
+.headermia {
+  background-color: #c2468a;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  top:0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.box {
+padding: 0%;
+box-sizing: border-box;
+background: white;
+overflow: hidden;
+margin: 5%;
+margin-top: 15vh;
+}
+
+.tattoo_1 {
+transition: transform 0.3s ease;
+
+}
+
+.tattoo_1:hover {
+transform: scale(1.1);
+}
+
+.tattoo_2 {
+transition: transform 0.3s ease;
+}
+
+.tattoo_2:hover {
+transform: scale(1.1);
+}
+
+.tattoo_3 {
+transition: transform 0.3s ease;
+}
+
+.tattoo_3:hover {
+transform: scale(1.1);
+}
+
+.tatuadora_crop {
+width: 230px;
+border-radius: 300px;
+margin-left: 10%;
+transition: transform 0.3s ease;
+}
+
+.tatuadora_crop:hover {
+transform: scale(1.1);
+}
+
+.nome {
+font-family: 'Grenze', serif;
+font-family: 'Poppins', sans-serif;
+margin-left: 78%;
+font-size: 20px;
+}
+
+.especial {
+font-family: 'Grenze', serif;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
 }
