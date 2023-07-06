@@ -1,35 +1,34 @@
 /*index.html*/
 header {
-    background-color: rgb(132, 59, 59);
-    height: 11vh;
-    display: flex;
-    align-items: center;
-    top:0;
-    left: 0;
-    width: 100%;
-    position: fixed;
-  }
+  background-color: #CF3434;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  top:0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
   
-  .logo {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 0.6%;
-    margin-left: 3%;
-  }
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0.6%;
+  margin-left: 3%;
+}
   
-  nav {
-    display: flow-root;
-  }
+nav {
+  display: flow-root;
+}
   
-  a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-left: 1.3em;
-    font-family: system-ui;
-    justify-content: space-around;
-
-  }
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 1.3em;
+  font-family: system-ui;
+  justify-content: space-around;
+}
 
 
   /*vitz.html*/
@@ -41,8 +40,6 @@ header {
   display: inline-block;
   height: 50vh;
 }    
-
-
 
 .text-overlay {
   color:rgb(255, 255, 255);
@@ -189,27 +186,29 @@ h4{
 
 /* index.html */
 
+.fotosprincipal {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin-top: 6%;
+  grid-auto-rows: minmax(90px, auto);
+}
+
 .bemvindo{
   font-family: Arial, Helvetica, sans-serif;
-  vertical-align: top;
-  display: inline-block;
-  width: 150vh;
   text-align: justify;
-  margin-top: 10vh;
+  width: 800px;
+  float: left
 }
 
 h3{
-  text-align: end;
+  text-align: start;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.fotosprincipal{
-  display: inline-block;
-  margin-top: 11vh;
-}
-
 iframe{
-  overflow: hidden;
+  float: right;
+  margin-top: 5vw;
 }
 
 /*mia.html*/
