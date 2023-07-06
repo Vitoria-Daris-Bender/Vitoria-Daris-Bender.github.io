@@ -38,8 +38,21 @@ header {
 
   }
 
+  .fotosMain {
+    margin-inline-start: 0%;
+    margin-inline-end: 130vw;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 768px){
+   .corpoSite{
+    width: 100%;
+    flex-direction: column;
+   }
+  }
 
   /*vitz.html*/
+
 
   .box {
     padding: 0%;
@@ -84,6 +97,7 @@ header {
     border-radius: 300px;
     margin-left: 10%;
     transition: transform 0.3s ease;
+    max-width: fit-content;
   }
   
   .tatuadora_crop:hover {
@@ -191,14 +205,13 @@ h1{
   text-align: center;
 }
 
-@media (max-width: 600px)
 
 /* lalas.index */
 
-.zaplalas{
+.zaplalas {
   margin-bottom: 9vh;
 }
-
+  
 .lalasfoto1{
   display: inline-block;
   margin-left: 7vh;
@@ -264,15 +277,14 @@ h4{
 
 .bemvindo{
   font-family: Arial, Helvetica, sans-serif;
-  vertical-align: top;
-  display: inline-block;
-  width: 150vh;
-  text-align: justify;
-  margin-top: 10vh;
+  display:grid;
+  width: 25%;
+  text-align:justify;
+  margin-inline-start: 50vw;
 }
 
 h3{
-  text-align: end;
+  text-align:center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -356,7 +368,7 @@ font-size: 20px;
 }
 
 .headermia {
-    background-color: #FFB2DC;
+    background-color: #ca6572;
     height: 70px;
     display: flex;
     align-items: center;
