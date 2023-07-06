@@ -1,13 +1,5 @@
 /*index.html*/
-
-* { 
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0;
-}
-
 header {
-
   background-color: #CF3434;
   height: 11vh;
   display: flex;
@@ -17,7 +9,6 @@ header {
   width: 100%;
   position: fixed;
 }
-
   
 .logo {
   color: white;
@@ -42,91 +33,25 @@ a {
 
   /*vitz.html*/
 
-  .box {
-    padding: 0%;
-    box-sizing: border-box;
-    background: white;
-    overflow: hidden;
-    margin: 5%;
-    align-content: center;
-    justify-content: space-around;
-  }
-  
-  .img1 {
-    transition: transform 0.3s ease;
-    max-width: 100%;
-    
-  }
-  
-  .img1:hover {
-    transform: scale(1.1);
-  }
-  
-  .img2 {
-    transition: transform 0.3s ease;
-    max-width: 100%;
-  }
-  
-  .img2:hover {
-    transform: scale(1.1);
-  }
-  
-  .img3 {
-    transition: transform 0.3s ease;
-    max-width: 100%;
-  }
-  
-  .img3:hover {
-    transform: scale(1.1);
-  }
-  
-  .tatuadora_crop {
-    width: 200px;
-    border-radius: 300px;
-    margin-left: 10%;
-    transition: transform 0.3s ease;
-  }
-  
-  .tatuadora_crop:hover {
-    transform: scale(1.1);
-  }
 
 .background-section {
   background-color: #7e1414;
   position: relative;
   display: inline-block;
   height: 50vh;
-  width: 100%;
 }    
 
 .text-overlay {
   color:rgb(255, 255, 255);
-  margin-inline-start: 20vw;
-  margin-inline-end: 20vw;
+  margin-inline-start: 2vw;
+  margin-inline-end: 1vw;
   word-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: block; 
-  line-height: 2em;
-}    
-
+}
 
 /* artistas.index */
-
-.nome {
-  color:rgb(255, 255, 255);
-  width: 200px;
-  border-radius: 300px;
-  margin-left: 10%;
-  transition: transform 0.3s ease;
-  word-wrap: break-word;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  display: block; 
- text-align: center;
- padding-bottom: 1.2em;
-}    
-
 
 p{
   line-height: 30px;
@@ -191,8 +116,6 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
-@media (max-width: 600px)
 
 /* lalas.index */
 
