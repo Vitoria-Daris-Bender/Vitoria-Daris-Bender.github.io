@@ -84,17 +84,17 @@ header {
     position: fixed;
   }
   
-  .logo {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 0.6%;
-    margin-left: 3%;
-  }
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0.6%;
+  margin-left: 3%;
+}
   
-  nav {
-    display: flow-root;
-  }
+nav {
+  display: flow-root;
+}
   
   .head {
     color: rgb(255, 255, 255);
@@ -180,8 +180,8 @@ header {
 
 .nomeText {
   color:rgb(255, 255, 255);
-  margin-inline-start: 20vw;
-  margin-inline-end: 20vw;
+  margin-inline-start: 2vw;
+  margin-inline-end: 1vw;
   word-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -225,7 +225,6 @@ header {
     width: 100%;
   }
 }
-
 
 /*artistas.index*/
 
