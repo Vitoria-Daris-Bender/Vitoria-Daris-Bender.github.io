@@ -1,14 +1,88 @@
 /*index.html*/
-header {
-  background-color: #CF3434;
-  height: 11vh;
-  display: flex;
-  align-items: center;
-  top:0;
-  left: 0;
-  width: 100%;
-  position: fixed;
+
+* { 
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #202020;
+}
+
+.bloco {
+  background-color:#0c0c0c;
+  width:100%;
+  max-width: 100%;
+  height: 10%;
+  margin-top: 11vh;
+}
+
+.bv {
+  color: white;
+  text-align: center;
+ padding-top: 1%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.dnys {
+  display: flex;
+  justify-content: space-between;
+  background-color: #161616;
+}
+
+.fotosMain {
+  width: 60%;
+  margin: 0%;
+}
+
+@media screen and (max-width: 720px){
+  .bloco{
+    height: 8%;
+  }
+    .fotosMain{
+      width: 100%;
+    }
+}
+
+.inicio {
+  color: antiquewhite;
+  width: 30%;
+  text-align:center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 4%;
+  margin-inline-end: 20%;
+  font-size: larger;
+  line-height: 5vh;
+ 
+}
+
+@media (max-width: 720px) {
+  .dnys {
+    flex-direction: column;
+    align-items: center;
+  }
+    .inicio {
+      margin-inline-start: 15%;
+      width: 80%;
+      margin-bottom: 5%;
+    }
+}
+header {
+    background-color: #080808;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    top:0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+  }
   
 .logo {
   color: white;
@@ -22,26 +96,89 @@ nav {
   display: flow-root;
 }
   
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  margin-left: 1.3em;
-  font-family: system-ui;
-  justify-content: space-around;
-}
+  .head {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 1.3em;
+    font-family: system-ui;
+    justify-content: space-around;
+
+  }
+
+  @media screen and (max-width: 720px){
+    .logo {
+      width: 100%;
+      margin-left: 8%;
+    }
+      .head {
+       width: 100%;
+      }
+  }
+
+  .visit {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-inline-start: 4%;
+  }
 
 
   /*vitz.html*/
 
+ 
+  .box {
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 5%;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    max-width:100%;
+  }
 
-.background-section {
-  background-color: #7e1414;
-  position: relative;
-  display: inline-block;
-  height: 50vh;
-}    
+  .imgV {
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    
+  }
+  
+  .imgV:hover {
+    transform: scale(1.1);
+  }
 
-.text-overlay {
+  .tatuadora_crop {
+    width: 200px;
+    border-radius: 300px;
+    margin-left: 15%;
+    transition: transform 0.3s ease;
+    max-width:100%;
+  }
+  
+  .tatuadora_crop:hover {
+    transform: scale(1.1);
+  }
+
+  .background-section {
+    background-color: #2c2c2c;
+    position: relative;
+    display: inline-block;
+    height: 30%;
+    width: 100%;
+  }    
+
+  .nomeVitz {
+    color:rgb(255, 255, 255);
+    margin-inline-start: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block; 
+    font-size: larger;
+    margin-bottom: 2%;
+  }
+
+.nomeText {
   color:rgb(255, 255, 255);
   margin-inline-start: 2vw;
   margin-inline-end: 1vw;
@@ -49,9 +186,61 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: block; 
+  line-height: 2em;
+  margin-top: 2%;
+}  
+
+@media screen and (max-width:720px) {
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgV {
+    width: 100%;
+  }
+  .tatuadora_crop {
+    margin-top: 10%;
+    margin-inline-start: 35%;
+  }
+
+  .nomeVitz {
+    width:100%;
+    margin-left: 2%;
+  }
+
+  .nomeText {
+    margin-top: 5%;
+    margin-inline-start: 10%;
+    width: 80%;
+    margin-bottom: 5%;
+  }
+  .background-section {
+    height: fit-content;
+  }
+  .logo {
+    width:100%;
+    margin-left: 8%;
+  }
+  .head {
+    width: 100%;
+  }
 }
 
-/* artistas.index */
+/*artistas.index*/
+
+.nome {
+  color:rgb(255, 255, 255);
+  width: 20px;
+  border-radius: 300px;
+  margin-left: 10%;
+  transition: transform 0.3s ease;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block; 
+ text-align: center;
+ padding-bottom: 1.2em;
+}    
 
 p{
   line-height: 30px;
@@ -64,8 +253,9 @@ p{
 }
 
 .lalas{
-  display: inline-block;
   margin: 0%;
+  width: 235px;
+
 }
 
 .lalas:hover{
@@ -73,8 +263,9 @@ p{
 }
 
 .mia{
-  display: inline-block;
   margin: 0%;
+  width: 235px;
+
 }
 
 .mia:hover{
@@ -82,8 +273,9 @@ p{
 }
 
 .vitz{
-  display: inline-block;
   margin: 0%;
+  width: 235px;
+
 }
 
 .vitz:hover{
@@ -91,279 +283,129 @@ p{
 }
 
 .lalasnome{
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 21px;
 }
 
 .mianome{
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 21px;
   margin-left: 15vh;
 }
 
 .vitznome{
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 21px;
   margin-left: 15vh;
 }
 
-h1{
-  color: black;
-  margin-top: 14vh;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-/* lalas.index */
-
-.zaplalas{
-  margin-bottom: 9vh;
-}
-
-.lalasfoto1{
-  display: inline-block;
-  margin-left: 7vh;
-}
-
-.lalasfoto1:hover{
-  transform: scale(1.1);
-}
-
-.lalasfoto2{
-  display: inline-block;
-  margin-left: 7vh;
-}
-
-.lalasfoto2:hover{
-  transform: scale(1.1);
-}
-
-.lalasfoto3{
-  display: inline-block;
-  margin-left: 7vh;
-}
-
-.lalasfoto3:hover{
-  transform: scale(1.1);
-}
-
-.lalasfoto4{
-  display: inline-block;
-  margin-left: 7vh;
-}
-
-.lalasfoto4:hover{
-  transform: scale(1.1);
-}
-
-.lalasfotos{
-  align-content: center;
-}
-
-.conteudolalas{
-  align-items: center;
-}
-
-.textolalas{
-  width: 620px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  display: inline-block;
-  margin: 0%;
-}
-
-h5{
-  margin-top: 0%;
-  margin-bottom: 7%;
-}
-
-h4{
-  margin-bottom: 0%;
-}
-
-/* index.html */
-
-.fotosprincipal {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  text-align: center;
-  margin-top: 6%;
-  grid-auto-rows: minmax(90px, auto);
-}
-
-.bemvindo{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
-  width: 800px;
-  float: left
-}
-
-h3{
-  text-align: start;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-iframe{
-  float: right;
-  margin-top: 5vw;
-}
-
-/*mia.html*/
-.headermia {
-  background-color: #c2468a;
-  height: 11vh;
-  display: flex;
-  align-items: center;
-  top:0;
-  left: 0;
+.art {
   width: 100%;
-  position: fixed;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10%;
+  margin-top: 7%
+  
 }
 
-.box {
-padding: 0%;
-box-sizing: border-box;
-background: white;
-overflow: hidden;
-margin: 5%;
-margin-top: 15vh;
+h1{
+  color: rgb(255, 255, 255);
+  margin-top: 15vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 60%;
+  text-align: center;
+  font-size: 20px;
+  padding: 3%;
+}
+.artistas {
+  background-color: #0c0c0c;
 }
 
-.tattoo_1 {
-transition: transform 0.3s ease;
-
-}
-
-.tattoo_1:hover {
-transform: scale(1.1);
-}
-
-.tattoo_2 {
-transition: transform 0.3s ease;
-}
-
-.tattoo_2:hover {
-transform: scale(1.1);
-}
-
-.tattoo_3 {
-transition: transform 0.3s ease;
-}
-
-.tattoo_3:hover {
-transform: scale(1.1);
-}
-
-.tatuadora_crop {
-width: 230px;
-border-radius: 300px;
-margin-left: 10%;
-transition: transform 0.3s ease;
-}
-
-.tatuadora_crop:hover {
-transform: scale(1.1);
-}
-
-.nome {
-font-family: 'Grenze', serif;
-font-family: 'Poppins', sans-serif;
-margin-left: 78%;
-font-size: 20px;
-}
-
-.especial {
-font-family: 'Grenze', serif;
-font-family: 'Poppins', sans-serif;
-font-size: 20px;
-}
-
-.headermia {
-    background-color: #FFB2DC;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top:0;
-    left: 0;
+@media screen and (max-width: 720px) {
+  .logo {
+    width:100%;
+    margin-left: 8%;
+  }
+  .head {
     width: 100%;
   }
-  
-  .logo {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 0.6%;
-    margin-left: 3%;
-  }
-  
-  nav {
-    display: flow-root;
-  }
-  
-  a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-left: 19px;
-    font-family: system-ui;
-  }
+}
 
-.box {
+.bod {
+  background-color:#0c0c0c;
+}
+
+.oestudiO {
+  width: 100%;
+  max-width: 100%;
+  
+}
+
+.boxstudio{
   padding: 0%;
   box-sizing: border-box;
-  background: white;
   overflow: hidden;
-  margin: 5%;
+  align-content: center;
+  justify-content: space-between;
+  max-width:100%;
+  height: 400px;
 }
 
-.tattoo_1 {
-  transition: transform 0.3s ease;
-  
+.tras {
+  background-color: #161616;
 }
 
-.tattoo_1:hover {
-  transform: scale(1.1);
+.oestudiop {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:antiquewhite;
+  line-height: 2em;
+  margin-inline-start: 13%;
+  margin-inline-end: 13%;
+  font-size: larger;
 }
 
-.tattoo_2 {
-  transition: transform 0.3s ease;
+@media screen and (max-width: 720px) {
+  .oestudio{
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxstudio {
+    width:fit-content;
+  }
+  .art {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.tattoo_2:hover {
-  transform: scale(1.1);
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.tattoo_3 {
-  transition: transform 0.3s ease;
+footer {
+  background-color: rgb(59, 59, 59);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 
-.tattoo_3:hover {
-  transform: scale(1.1);
+footer a {
+  text-decoration: none;
+  color:antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
-.tatuadora_crop {
-  width: 230px;
-  border-radius: 300px;
-  margin-left: 10%;
-  transition: transform 0.3s ease;
-}
-
-.tatuadora_crop:hover {
-  transform: scale(1.1);
-}
-
-.nome {
-  font-family: 'Grenze', serif;
-  font-family: 'Poppins', sans-serif;
-  margin-left: 78%;
-  font-size: 20px;
-}
-
-.especial {
-  font-family: 'Grenze', serif;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+.logo-whatsapp,
+.logo-instagram {
+  width: 40px;
+  height: 40px;
 }
